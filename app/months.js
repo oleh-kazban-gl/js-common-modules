@@ -18,3 +18,6 @@ var names = [
 month.name = function(monthNumber) {
   return names[monthNumber];
 };
+month.number = function(monthName) {
+  return names.indexOf(monthName);
+}
