@@ -16,6 +16,5 @@ var names = [
 ];
 
 month.name = function(monthNumber) {
-  //console.log('Downloading: ' + episode);
   return names[monthNumber];
 };
